@@ -1,0 +1,59 @@
+#search-container{
+    margin-top:10%;
+    display: flex;
+    justify-content: center;
+    gap:3%
+}
+#search-input{
+    width:50%;
+    height:5vh;
+    border:1px solid red
+}
+#search-btn{
+    width:15%;
+    height:5.6vh;
+    background-color: rgb(255,0,0,0.65);
+    border:none;
+    border-radius: 5%;
+}
+#result-container{
+    margin-top: 5%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    gap:15px;
+    flex-wrap: wrap;
+}
+.card{
+    box-shadow: 2px 2px 10px;
+    border-radius: 3%;
+    width:30%;
+    height:35vh;
+    text-align: center;
+}
+.food-img{
+    border-radius: 3%;
+    height:25vh;
+    width:100%;
+    object-fit: cover;
+}
+.detail-card{
+    width:50%;
+    margin:auto;
+    box-shadow: 2px 2px 10px;
+    padding-bottom: 4%;
+    border-radius: 20px;
+}
+.food-detail-img{
+    border-radius: 20px;
+    height:30vh;
+    width:100%;
+    object-fit:cover
+}
+.food-detail-name{
+    padding-left: 5%;
+}
+.ingtext{
+    padding-left: 5%;
+}
+

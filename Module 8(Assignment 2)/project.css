@@ -1,0 +1,46 @@
+#search-container{
+    margin-top:5%;
+    display:flex;
+    justify-content: center;
+}
+#search-bar{
+    width:50%;
+    height:5vh
+}
+#search-btn{
+    width:10%;
+    height:5vh;
+    
+}
+.card{
+    width:31.5%;
+    height:75vh !important;
+    /* text-align: center; */
+    /* padding-bottom:5%; */
+    background-color: black !important;
+}
+.card-img{
+    height:40vh;
+    background-image: url('Pictures/NoFace.webp');
+    object-fit: cover;
+}
+#card-container{
+    width:80%
+}
+#select-container{
+    width:20%
+}
+#open-modal-btn{
+    width:50%;
+    height:4vh
+    /* height:100%; */
+}
+#fav-btn{
+    height: fit-content;
+    width:40%
+}
+footer{
+    margin-top:10vh;
+    border-top:1px solid black;
+    height:20vh
+}
